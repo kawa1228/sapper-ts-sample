@@ -2,7 +2,7 @@
     export let title: string = "Hello TypeScript";
 </script>
 
-<style>
+<style lang="scss">
 	h1, figure, p {
 		text-align: center;
 		margin: 0 auto;
@@ -17,6 +17,10 @@
 
 	figure {
 		margin: 0 0 1em 0;
+
+		figcaption {
+			color: rgb(255,62,0);
+		}
 	}
 
 	img {

@@ -10,6 +10,7 @@ import sveltePreprocess from 'svelte-preprocess';
 
 const preprocess = sveltePreprocess({
 	typescript: true,
+	sass: true,
 	// ...
 });
 
